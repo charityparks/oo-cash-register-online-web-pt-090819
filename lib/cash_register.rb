@@ -6,16 +6,16 @@ class CashRegister
   
   end
 
-  def new 
+  # def new 
   
-  end
+  # end
 
-  def total
+  # def total
   
-  end
+  # end
 
-  def add_item
+  # def add_item
   
-  end
+  # end
 
 end
