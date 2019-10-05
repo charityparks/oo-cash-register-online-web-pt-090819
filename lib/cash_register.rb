@@ -11,7 +11,12 @@ class CashRegister
     @price = []
   end
   
-  
+   def add_item(title, price, quantity = 1)
+     self.total += (price * quantity)
+     self.price << (price * quantity)
+     self.items.concat([title] * quantity)
+     # self.items << title
+  end
 
   # def add_item(title, price, quantity = 1)
   #   self.total += (price * quantity)
